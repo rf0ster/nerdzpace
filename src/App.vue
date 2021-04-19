@@ -1,12 +1,20 @@
 <template>
   <div
-    class="bg-surface dark:bg-surface-dark text-on_surface dark:text-on_surface-dark"
+    class="h-screen bg-background dark:bg-background-dark text-on_background dark:text-on_background-dark"
   >
-    <router-link to="/">Home</router-link>
-    <span>|</span>
-    <router-link to="/about">About</router-link>
+    <Header user="riley" />
   </div>
-  <router-view />
 </template>
 
-<style></style>
+<script>
+import Header from "@/components/Header.vue";
+
+export default {
+  props: {
+    user: String,
+  },
+  components: {
+    Header,
+  },
+};
+</script>

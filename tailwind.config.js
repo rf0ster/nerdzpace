@@ -36,25 +36,30 @@ module.exports = {
           DEFAULT: "var(--light-surface)",
           dark: "var(--dark-surface)",
         },
-        on_backgroud: {
+        onBackgroud: {
           light: "var(--light-on-background)",
           DEFAULT: "var(--light-on-background)",
           dark: "var(--dark-on-background)",
         },
-        on_surface: {
+        onSurface: {
           light: "var(--light-on-surface)",
           DEFAULT: "var(--light-on-surface)",
           dark: "var(--dark-on-surface)",
         },
-        on_primary: {
+        onPrimary: {
           light: "var(--light-on-primary)",
           DEFAULT: "var(--light-on-primary)",
           dark: "var(--dark-on-primary)",
         },
-        on_secondary: {
+        onSecondary: {
           light: "var(--light-on-secondary)",
           DEFAULT: "var(--light-on-secondary)",
           dark: "var(--dark-on-secondary)",
+        },
+        gray: {
+          light: "var(--light-gray)",
+          DEFAULT: "var(--light-gray)",
+          dark: "var(--dark-gray)",
         },
       },
     },

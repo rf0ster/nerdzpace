@@ -14,7 +14,7 @@
     --dark-on-primary: #000000;
     --dark-on-secondary: #000000;
     --dark-error: #cf6679;
-    --dark-border-color: none;
+    --dark-gray: #414245;
 
     --light-background: #f1f2f5;
     --light-surface: #ffffff;
@@ -27,5 +27,7 @@
     --light-on-primary: #000000;
     --light-on-secondary: #000000;
     --light-error: #b00021;
-    --light-border-color: #a1a2a5;
+    --light-gray: #c1c2c5;
+
+    --header-height: 56px;
 }
