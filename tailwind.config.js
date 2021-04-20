@@ -36,7 +36,7 @@ module.exports = {
           DEFAULT: "var(--light-surface)",
           dark: "var(--dark-surface)",
         },
-        onBackgroud: {
+        onBackground: {
           light: "var(--light-on-background)",
           DEFAULT: "var(--light-on-background)",
           dark: "var(--dark-on-background)",

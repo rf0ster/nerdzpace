@@ -31,3 +31,17 @@
 
     --header-height: 56px;
 }
+
+@font-face {
+    font-family: 'Aniron';
+    src: url('./assets/fonts/aniron/anirm___.ttf');
+}
+
+@font-face {
+    font-family: "RocketRinder";
+    src: url("./assets/fonts/rocket-rinder-font/RocketRinder-yV5d.ttf");
+}
+
+.aniron {
+    font-family: "Aniron";
+}
