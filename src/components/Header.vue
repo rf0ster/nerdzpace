@@ -2,7 +2,7 @@
   <div
     class="aniron header bg-surface dark:bg-surface-dark text-onSurface dark:text-onSurface-dark border-b border-gray dark:border-gray-dark"
   >
-    <div class="header-item ml-10 text-lg">Nerds 'R Us</div>
+    <div class="header-item ml-10 text-lg">Nerdz'pace</div>
     <div class="header-item mr-10">
       {{ user }}
     </div>

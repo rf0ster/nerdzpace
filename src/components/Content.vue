@@ -1,8 +1,7 @@
 <template>
   <div
     class="aniron content-container content-image opacity-50 dark:content-image-dark text-onBackground dark:text-onBackground-dark"
-  >
-  </div>
+  ></div>
 </template>
 
 <script>

@@ -1,4 +1,4 @@
-# nerds
+# nerdzpace
 
 ## Project setup
 ```
