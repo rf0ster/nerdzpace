@@ -37,7 +37,7 @@ export default {
     },
     message: function () {
       return this.darkMode
-        ? "You! Shall not, pass!!"
+        ? "You! Shall not, pass!!!"
         : "Speak friend and enter...";
     },
   },
@@ -51,6 +51,7 @@ export default {
   font-size: 20px;
   background-repeat: no-repeat;
   background-size: cover;
+  cursor: pointer;
 }
 .content-image-dark {
   background-image: url("../assets/Gandalf4.jpg");

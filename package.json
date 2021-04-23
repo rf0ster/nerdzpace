@@ -10,7 +10,10 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start": "node server.js"
+    "start": "node server.js",
+    "docker:build": "docker build -t nerdzpace .",
+    "docker:run": "docker run --rm -p 4001:4001 -d --name nerdzpace --network=nerdzpace-net nerdzpace",
+    "docker:stop": "docker stop nerdzpace"
   },
   "dependencies": {
     "core-js": "^3.6.5",
