@@ -18,7 +18,7 @@
           class="mt-8"
           id="password"
           name="Password"
-          type="text"
+          type="password"
           placeholder="password..."
         />
       </div>
