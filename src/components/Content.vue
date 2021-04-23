@@ -54,7 +54,7 @@ export default {
   cursor: pointer;
 }
 .content-image-dark {
-  background-image: url("../assets/Gandalf4.jpg");
+  background-image: url("../assets/Gandalf2.jpg");
   opacity: 0.2;
   text-align: left;
   padding-top: 100px;
