@@ -45,3 +45,11 @@
 .aniron {
     font-family: "Aniron";
 }
+
+/* Tailwind supplemental styles */
+.min-h-max {
+    min-height: max-content;
+}
+.min-h-min {
+    min-height: min-content;
+}
