@@ -37,7 +37,7 @@ export default {
     },
     message: function () {
       return this.darkMode
-        ? "You! Shall not, pass!!!"
+        ? "You! Shall not, pass!!"
         : "Speak friend and enter...";
     },
   },
