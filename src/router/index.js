@@ -19,4 +19,17 @@ const router = createRouter({
   routes,
 });
 
+router.beforeEach((to, from, next) => {
+  console.log("Route Guard");
+  console.log(to);
+  console.log(from);
+  next();
+
+  // if (to.name !== "Login" && !isAuthenticated) {
+  //   next({ name: "Login" });
+  // } else {
+  //   next();
+  // }
+});
+
 export default router;

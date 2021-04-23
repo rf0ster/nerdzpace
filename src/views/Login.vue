@@ -3,7 +3,7 @@
     class="flex flex-col opacity-60 justify-center aniron w-screen h-screen bg-moria"
   >
     <div
-      class="flex flex-col bg-surface text-onSurface mr-auto ml-auto pt-3 h-1/2 w-1/4 rounded-3xl b-shad"
+      class="flex flex-col bg-surface text-onSurface mr-auto ml-auto m-2 p-3 h-1/2 w-1/4 min-w-max min-h-full md:min-h-0 rounded-3xl b-shad"
     >
       <div class="ml-auto mr-auto">Speak friend and enter...</div>
       <div class="ml-auto mr-auto pt-10 flex flex-col justify-center">
@@ -11,12 +11,14 @@
           class="mt-15"
           id="email"
           name="Email"
+          type="email"
           placeholder="email address..."
         />
         <TextInput
           class="mt-8"
           id="password"
           name="Password"
+          type="text"
           placeholder="password..."
         />
       </div>

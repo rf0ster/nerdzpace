@@ -4,7 +4,7 @@
     <input
       :id="id"
       :name="name"
-      :type="text"
+      :type="type"
       :placeholder="placeholder"
       class="mt-2 p-2"
     />
@@ -14,6 +14,6 @@
 
 <script>
 export default {
-  props: ["id", "name", "placeholder"],
+  props: ["id", "name", "placeholder", "type"],
 };
 </script>
