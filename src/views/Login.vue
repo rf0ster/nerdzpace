@@ -44,8 +44,8 @@ export default {
   background-size: cover;
 }
 .b-shad {
-    box-shadow: 30px 25px 30px;
-    border: 1px solid;
-    border-style: ridge;
+  box-shadow: 30px 25px 30px;
+  border: 1px solid;
+  border-style: ridge;
 }
 </style>

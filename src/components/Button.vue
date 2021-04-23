@@ -28,9 +28,9 @@ export default {
 
 <style scoped>
 button {
-    padding: 8px;
+  padding: 8px;
 }
 button:active {
-    opacity: 0.5;
-};
+  opacity: 0.5;
+}
 </style>
