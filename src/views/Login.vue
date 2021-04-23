@@ -3,7 +3,7 @@
     class="flex flex-col opacity-60 justify-center aniron w-screen h-screen bg-moria"
   >
     <div
-      class="flex flex-col bg-surface text-onSurface mr-auto ml-auto m-2 p-3 h-1/2 w-1/4 min-w-max rounded-3xl b-shad"
+      class="flex flex-col bg-surface text-onSurface mr-auto ml-auto m-2 p-3 h-1/2 w-1/4 min-w-max min-h-min rounded-3xl b-shad"
     >
       <div class="ml-auto mr-auto">Speak friend and enter...</div>
       <div class="ml-auto mr-auto pt-10 flex flex-col justify-center">
@@ -43,6 +43,7 @@ export default {
 .bg-moria {
   background-image: url("../assets/Moria.jpg");
   background-repeat: no-repeat;
+  background-position: center center; /* First value is from left and second is from top. You can use use number as well*/
   background-size: cover;
 }
 .b-shad {
