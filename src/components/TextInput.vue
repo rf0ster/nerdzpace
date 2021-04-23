@@ -6,7 +6,7 @@
       :name="name"
       :type="text"
       :placeholder="placeholder"
-      class="mt-2"
+      class="mt-2 p-2"
     />
     <hr />
   </div>
