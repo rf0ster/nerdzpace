@@ -20,9 +20,6 @@ const router = createRouter({
 });
 
 router.beforeEach((to, from, next) => {
-  console.log("Route Guard");
-  console.log(to);
-  console.log(from);
   next();
 
   // if (to.name !== "Login" && !isAuthenticated) {

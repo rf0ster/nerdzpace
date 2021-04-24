@@ -61,6 +61,11 @@ module.exports = {
           DEFAULT: "var(--light-gray)",
           dark: "var(--dark-gray)",
         },
+        error: {
+          light: "var(--light-error)",
+          DEFAULT: "var(--light-error)",
+          dark: "var(--dark-error)",
+        },
       },
     },
   },

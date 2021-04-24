@@ -6,7 +6,9 @@
       :name="name"
       :type="type"
       :placeholder="placeholder"
+      :class="{ 'border border-error dark:border-error-dark': !valid }"
       class="mt-2 p-2"
+      @change="change"
     />
     <hr />
   </div>
@@ -14,6 +16,11 @@
 
 <script>
 export default {
-  props: ["id", "name", "placeholder", "type"],
+  props: ["id", "name", "placeholder", "type", "valid"],
+  methods: {
+    change: function (event) {
+      this.$emit("newValue", event.target.value);
+    },
+  },
 };
 </script>

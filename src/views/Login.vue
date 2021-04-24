@@ -13,6 +13,8 @@
           name="Email"
           type="email"
           placeholder="email address..."
+          :valid="emailValid"
+          @newValue="setEmail"
         />
         <TextInput
           class="mt-8"
@@ -20,9 +22,16 @@
           name="Password"
           type="password"
           placeholder="password..."
+          :valid="passwordValid"
+          @newValue="setPassword"
         />
       </div>
-      <Button class="mt-auto ml-auto mr-auto mb-1" name="Login" id="login" />
+      <Button
+        @click="login"
+        class="mt-auto ml-auto mr-auto mb-1"
+        name="Login"
+        id="login"
+      />
     </div>
   </div>
 </template>
@@ -35,6 +44,42 @@ export default {
   components: {
     TextInput,
     Button,
+  },
+  data: function () {
+    return {
+      email: null,
+      emailValid: true,
+      password: null,
+      passwordValid: true,
+    };
+  },
+  methods: {
+    setEmail: function (value) {
+      this.email = value;
+      this.validateEmail();
+    },
+    validateEmail: function () {
+      this.emailValid =
+        this.isEmpty(this.email) && this.validEmailFormat(this.email);
+    },
+    setPassword: function (value) {
+      this.password = value;
+      this.validatePassword();
+    },
+    validatePassword: function () {
+      this.passwordValid = this.isEmpty(this.password);
+    },
+    login: function () {
+      this.validateEmail();
+      this.validatePassword();
+    },
+    isEmpty: function (str) {
+      return str !== "" && str !== null && str !== undefined;
+    },
+    validEmailFormat: function (email) {
+      var re = /\S+@\S+\.\S+/;
+      return re.test(email);
+    },
   },
 };
 </script>
